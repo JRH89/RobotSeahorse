@@ -342,7 +342,7 @@ window.addEventListener('load', function(){
     class UI {
         constructor(game){
             this.game = game;
-            this.fonstSize = 25;
+            this.fonstSize = 50;
             this.fontFamily = 'Bangers';
             this.color = 'white';
         }
@@ -372,7 +372,7 @@ window.addEventListener('load', function(){
                 }
                 context.font = '100px' + this.fontFamily;
                 context.fillText(message1, this.game.width * 0.5, this.game.height * 0.5 - 20);
-                context.font = '25px' + this.fontFamily;
+                context.font = '50px' + this.fontFamily;
                 context.fillText(message2, this.game.width * 0.5, this.game.height * 0.5 + 20);
             }
             // ammo
