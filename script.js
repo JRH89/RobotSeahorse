@@ -248,7 +248,7 @@ window.addEventListener('load', function(){
             this.image = document.getElementById('drone');
             this.frameY = Math.floor(Math.random() * 2);
             this.lives = 3;
-            this.score = this.lives;
+            this.score = 5;
             this.type = 'drone';
             this.speedX = Math.random() * -4.2 - 0.5;
         }
@@ -405,7 +405,7 @@ window.addEventListener('load', function(){
             this.score = 0;
             this.winningScore = 100;
             this.gameTime = 0;
-            this.timeLimit = 30000;
+            this.timeLimit = 60000;
             this.speed = 1;
             this.debug = false;
         }
